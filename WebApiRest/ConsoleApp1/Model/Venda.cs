@@ -10,11 +10,12 @@ namespace ConsoleApp1.Model
     {
 
         //construtor
-        public Venda(int id, string produto, decimal preco)
+        public Venda(int id, string produto, decimal preco, DateTime data)
         {
             Id = id;
             Produto = produto;
             Preco = preco;
+            DataVenda = data;
         }
 
 
@@ -22,6 +23,8 @@ namespace ConsoleApp1.Model
         //Atributos do objeto
         public int Id { get; set; }
         public string Produto { get; set; }
-        public decimal Preco { get; set;}
+        public decimal Preco { get; set; }
+        public DateTime DataVenda { get; set; }
     }
+
 }

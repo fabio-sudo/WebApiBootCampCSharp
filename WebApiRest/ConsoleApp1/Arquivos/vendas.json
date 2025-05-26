@@ -1,5 +1,14 @@
-{
-  "Id": 1,
-  "Produto": "Material de Escritório",
-  "Preco": 25.0
-}
+[
+  {
+    "Id": 1,
+    "Produto": "Material de Escritório",
+    "Preco": 250000.00,
+    "DataVenda": "2025-05-26T08:18:09.9892258-03:00"
+  },
+  {
+    "Id": 2,
+    "Produto": "Licença de Software",
+    "Preco": 110000.00,
+    "DataVenda": "2025-05-26T08:18:09.9892258-03:00"
+  }
+]
